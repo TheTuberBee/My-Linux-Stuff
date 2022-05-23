@@ -209,3 +209,5 @@ unzip tlauncher.zip
 cp -R tlauncher/. .
 rm -R tlauncher.zip
 rm -R tlauncher
+
+sudo usermod --shell /bin/zsh frt
