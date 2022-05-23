@@ -184,7 +184,7 @@ mkdir Repositories
 cd Repositories
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si
+makepkg -si --noconfirm
 
 yay -S --noconfirm --needed neofetch
 yay -S --noconfirm --needed spotify
