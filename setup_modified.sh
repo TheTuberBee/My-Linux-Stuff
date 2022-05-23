@@ -1,10 +1,9 @@
 #!/bin/bash
 # arch linux after install setup script
-sudo -i
 set -e
 
-echo "/swapfile none swap defaults 0 0" >> /etc/fstab
-echo "vm.swappiness=20" >> /etc/sysctl.d/99-sysctl.conf
+echo "/swapfile none swap defaults 0 0" | sudo tee -a /etc/fstab
+echo "vm.swappiness=20" | sudo tee -a /etc/sysctl.d/99-sysctl.conf
 
 cd /home/frt
 mkdir Repositories
