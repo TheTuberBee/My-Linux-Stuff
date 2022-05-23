@@ -179,7 +179,12 @@ sudo pacman -S --noconfirm --needed gnome-tweaks
 sudo pacman -S --noconfirm --needed kitty
 sudo pacman -S --noconfirm --needed jdk11-openjdk
 
-sudo pacman -S --noconfirm --needed yay
+cd /home/frt
+mkdir Repositories
+cd Repositories
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
 
 yay -S --noconfirm --needed neofetch
 yay -S --noconfirm --needed spotify
