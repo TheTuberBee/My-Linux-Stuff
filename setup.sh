@@ -191,6 +191,7 @@ yay -S --noconfirm --needed spotify
 yay -S --noconfirm --needed visual-studio-code-bin
 yay -S --noconfirm --needed github-desktop-bin
 yay -S --noconfirm --needed balena-etcher
+yay -S --noconfirm --needed geekbench
 
 
 cd /
