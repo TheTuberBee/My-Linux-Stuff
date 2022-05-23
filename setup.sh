@@ -1,8 +1,7 @@
 #!/bin/bash
 # arch linux after install setup script
-
+sudo -i
 set -e
-
 ##################################################################################################################
 
 # PROCESSZOR BEÁLLÍTÓ SCRIPT
